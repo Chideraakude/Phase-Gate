@@ -23,19 +23,14 @@ public class Quagmire{
         int [] arr = new int [numbers.length + 2];
         for(int count = 0; count < numbers.length; count++){
             arr[count] = numbers[count];
-            arr[count + numbers.length] = numbers[count] + 2;
 
+            arr[numbers.length ] = -1;
+            arr[numbers.length + 1] = -1;
 
+            
         }
 
         return arr;
-
-    
-
-
-
-
-
     }
 
 
