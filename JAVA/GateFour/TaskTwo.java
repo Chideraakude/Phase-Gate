@@ -14,7 +14,6 @@ public class TaskTwo {
     public static int[] replaceNegativeNumberWithZero(int[] numbers) {
 
         int[] arr = new int[numbers.length];
-//        int index = 0;
 
         for (int count = 0; count < numbers.length; count++) {
 
@@ -29,4 +28,7 @@ public class TaskTwo {
 
         return arr;
     }
+    public int getLength(int[] numbers){
+		return numbers.length;
+	}
 }

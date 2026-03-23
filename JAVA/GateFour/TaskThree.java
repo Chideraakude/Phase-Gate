@@ -11,10 +11,10 @@ public class TaskThree {
     public static void main(String[] args) {
 
         int[] numbers = {5, 0, 3, 0, 2, 0};
-        System.out.println(Arrays.toString(replaceNegativeNumberWithZero(numbers)));
+        System.out.println(Arrays.toString(moveZeroToTheEndOfTheArray(numbers)));
     }
 
-    public static int[] replaceNegativeNumberWithZero(int[] numbers) {
+    public static int[] moveZeroToTheEndOfTheArray(int[] numbers) {
 
         int tempOne = numbers [1];
         int tempTwo = numbers [1];
@@ -29,7 +29,6 @@ public class TaskThree {
 
 
             }
-//            numbers[count] = numbers [count + 1];
 
         }
         arr[newIndex] = tempOne;
@@ -37,4 +36,7 @@ public class TaskThree {
 
         return arr;
     }
+     public int getLength(int[] numbers){
+		return numbers.length;
+	}
 }

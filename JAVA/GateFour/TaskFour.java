@@ -53,4 +53,7 @@ public class TaskFour {
 
         return result;
     }
+      public int getLength(int[] numbers){
+		return numbers.length;
+	}
 }

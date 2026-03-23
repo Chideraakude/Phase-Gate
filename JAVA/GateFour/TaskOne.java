@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class NumberIsPrime {
+public class TaskOne {
 
     public static void main(String[] args) {
 
@@ -37,4 +37,7 @@ public class NumberIsPrime {
 
         return result;
     }
+    public int getLength(int[] numbers){
+		return numbers.length;
+	}
 }
